@@ -1,11 +1,11 @@
 {
 	"FileVersion": 3,
 	"Version": 1,
-	"VersionName": "1.0",
-	"FriendlyName": "Spout2Media",
-	"Description": "",
-	"Category": "Other",
-	"CreatedBy": "BACKSPACE Productions Inc",
+	"VersionName": "1.1",
+	"FriendlyName": "Spout2 Media IO",
+	"Description": "Originally created by BACKSPACE Productions Inc and adapted at Hawtin Labs",
+	"Category": "Hawtin Labs",
+	"CreatedBy": "Hawtin Labs",
 	"CreatedByURL": "",
 	"DocsURL": "",
 	"MarketplaceURL": "",
@@ -22,7 +22,7 @@
 			"Name": "Spout2Media",
 			"Type": "Runtime",
 			"LoadingPhase": "Default",
-			"WhitelistPlatforms": [
+			"PlatformAllowList": [
 				"Win64"
 			]
 		},
@@ -30,7 +30,7 @@
 			"Name": "Spout2MediaEditor",
 			"Type": "Editor",
 			"LoadingPhase": "Default",
-			"WhitelistPlatforms": [
+			"PlatformAllowList": [
 				"Win64"
 			]
 		}

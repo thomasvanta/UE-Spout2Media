@@ -16,10 +16,13 @@ class SPOUT2MEDIA_API USpout2MediaOutput
 public:
 
 	UPROPERTY(BlueprintReadWrite, EditAnywhere, Category = "Spout2 Media")
-	FString SenderName = FString("UnrealEngile");
+	FString SenderName = FString("UnrealEngine");
 
 	UPROPERTY(BlueprintReadWrite, EditAnywhere, Category = "Spout2 Media")
 	FIntPoint OutputSize = FIntPoint(1920, 1080);
+
+	UPROPERTY(BlueprintReadWrite, EditAnywhere, Category = "Spout2 Media")
+	TEnumAsByte<EPixelFormat> Format = PF_A2B10G10R10;
 	
 	virtual bool Validate(FString& OutFailureReason) const override;
 
