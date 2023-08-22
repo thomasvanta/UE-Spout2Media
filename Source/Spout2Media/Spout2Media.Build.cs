@@ -1,7 +1,9 @@
 // Copyright Epic Games, Inc. All Rights Reserved.
 
-using UnrealBuildTool;
+using System;
 using System.IO;
+
+using UnrealBuildTool;
 
 public class Spout2Media : ModuleRules
 {
@@ -26,7 +28,7 @@ public class Spout2Media : ModuleRules
 		string Filename = Path.GetFileName(Filepath);
 
 		//convert relative path 
-		string FullBinariesDir = Path.GetFullPath(BinariesDir);
+		string FullBinariesDir = Path.GetFullPath(BinariesDir); 
 
 		if (!Directory.Exists(FullBinariesDir))
 		{

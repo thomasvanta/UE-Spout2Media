@@ -13,10 +13,7 @@
 	"CanContainContent": true,
 	"IsBetaVersion": false,
 	"IsExperimentalVersion": false,
-	"Installed": false,
-	"SupportedTargetPlatforms": [
-		"Win64"
-	],
+	"Installed": true,
 	"Modules": [
 		{
 			"Name": "Spout2Media",
